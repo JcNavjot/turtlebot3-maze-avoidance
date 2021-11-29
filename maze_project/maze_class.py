@@ -60,7 +60,7 @@ class TurtleBotMaze():
         self.rc.stop_robot()
 
 
-        i = self.rc.get_laser(360)
+        i = self.rc.get_laser(360)     #  360 is the front side of the laser mounted on the robot 
 
         while (i > 1): 
 
