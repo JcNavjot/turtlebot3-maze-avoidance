@@ -8,7 +8,7 @@ class TurtleBotMaze():
 
         #self.rc = RobotControl()
         #self.degrees = degrees
-#Or you can use the 2nd approach as defined below.
+# Or you can use the 2nd approach as defined below.
 
     def __init__(self, degrees, degrees2, motion, speed, time):
 
@@ -97,9 +97,10 @@ class TurtleBotMaze():
 
         self.move_straight()
 
+# creating different instances of class TurtleBotMaze and calling different functions on it...
 
 f1 = TurtleBotMaze(80, -93, "forward", 0.5, 5.0)
-f1.turtlebot()
+f1.turtlebot()   
 
 f2 = TurtleBotMaze(80, -93, "forward", 0.5, 7.0)
 f2.turtlebot2()
